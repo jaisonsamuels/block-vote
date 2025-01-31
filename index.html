@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voting Application</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h1>Voting Application</h1>
@@ -17,22 +17,22 @@
         </thead>
         <tbody>
             <tr>
-                <td id="1"></td>
-                <td id="candidate1"></td>
+                <td id="1">Loading...</td>
+                <td id="candidate1">0</td>
             </tr>
             <tr>
-                <td id="2"></td>
-                <td id="candidate2"></td>
+                <td id="2">Loading...</td>
+                <td id="candidate2">0</td>
             </tr>
             <tr>
-                <td id="3"></td>
-                <td id="candidate3"></td>
+                <td id="3">Loading...</td>
+                <td id="candidate3">0</td>
             </tr>
         </tbody>
     </table>
     <input type="number" id="candidate" placeholder="Enter candidate ID" />
     <button onclick="vote()" class="btn">Vote</button>
-    <script src="./node_modules/web3/dist/web3.min.js"></script>
-    <script src="./scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="/scripts.js"></script>
 </body>
 </html>
