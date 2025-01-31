@@ -2,4 +2,7 @@
   "dependencies": {
     "web3": "^4.16.0"
   }
+    "devDependencies": {
+    "@remix-run/dev": "^2.15.3"
+  }
 }
